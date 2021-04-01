@@ -1,0 +1,36 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+/*CSS RESET VÉGE*/
+
+body{
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color:rgb(118, 186, 207);
+}
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+  .head, .contact{
+      text-align: center;
+  }
+  .namecard{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 600px;
+    max-width: calc(100vw - 10px);
+    height: 470px;
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
+  }
